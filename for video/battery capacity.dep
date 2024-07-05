@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2046344105</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Different files for this project\startup_stm32f103xb.s</file>
+            <file>$PROJ_DIR$\Different files for this project\system_stm32f1xx.c</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Different files for this project\stm32f1xx.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Different files for this project\cmsis_version.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.__cstat.et</file>
+            <file>$PROJ_DIR$\Different files for this project\core_cm3.h</file>
+            <file>$PROJ_DIR$\Different files for this project\stm32f103xb.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Different files for this project\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\Different files for this project\system_stm32f1xx.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\Different files for this project\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103x8.icf</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\List\battery capacity.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f103xb.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\battery capacity.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\battery capacity.pbd</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 30 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Different files for this project\startup_stm32f103xb.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Different files for this project\system_stm32f1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18 9 16 8 14 13 7 17 15 5 11 6 20 19</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5 14 13 7 9 8 6 15 16 11 17 20 19 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 7 16 14 13 8 5 18 17 15 11 6 20 19</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5 14 13 7 9 8 6 15 16 11 17 20 19 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\battery capacity.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 22 3 28 27 21 25 24 23</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
